@@ -1,23 +1,22 @@
 # GenAI Workshop Assignments
-
-This repository contains all the hands-on assignments completed during the 5-day Generative AI workshop conducted by Aurora Higher Education. The assignments cover practical examples using Python, LangChain, and Ollama, focusing on logging, chaining, parallel execution, and branching workflows with LLMs.
+This repository contains the complete hands-on assignments from the 5-day Generative AI workshop held at Aurora Higher Education University. The workshop focused on practical learning and application of modern generative AI techniques using Python, LangChain, and Ollama.
 
 ## Workshop Overview
-- Day 1-5: Progressive learning with real use cases and LangChain programs
-- Usage of TinyLlama and Ollama integration for efficient AI workflows
-- Emphasis on foundational skills for generative AI application development
+Over five days, participants learned the foundations of generative AI, large language model orchestration, and automation through progressive coding assignments and real-world use cases.
 
-## How to Use 
-- Review each script file for detailed examples and comments
-- Run Python files locally after installing dependencies listed in `requirements.txt`
-- Extend or customize workflows to build your own GenAI projects
+## Topics Covered
+- Introduction to logging and handling dependencies in Python projects
+- Building prompt chains and reusable workflows with LangChain
+- Running parallel AI tasks using Runnable Parallel
+- Conditional branching workflows with Runnable Branch
+- Integration with Ollama and usage of TinyLlama models
+- Best practices for orchestrating large language models in production environments
 
-## Technologies Used
-- Python 3.13
-- LangChain
-- Ollama LLM models (TinyLlama)
-- Logging and workflow orchestration techniques
+## How to Use
+- Review individual Python scripts in the `Day3` folder for detailed examples
+- Ensure necessary dependencies are installed via `requirements.txt`
+- Customize and extend these workflows for your own generative AI projects
 
-Feel free to explore, contribute, and build on these exercises to enhance your AI development skills!
 
 *Created by Polla Vishnu Vardhan*
+
