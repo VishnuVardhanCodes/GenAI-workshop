@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Reader</title>
+</head>
+<body>
+    <h2>Flight Price Predictor</h2>
+    <label>Source:</label>
+    <input type="text" id="source"><br><br>
+
+    <label>Destination:</label>
+    <input type="text" id="destination"><br><br>
+
+    <label>Price (₹):</label>
+    <input type="text" id="price"><br><br>
+
+    <button onclick="predict()">Predict</button>
+    <p id="result"></p>
+
+    <script>
+        async function predict() {
+            const src = document.getElementById("source").value;
+            const dst = document.getElementById("destination").value;
+            const price = document.getElementById("price").value;
+
+            const prompt = `Predict if the flight from ${src} to ${dst} with price ₹${price} is cheap, average, or expensive.`;
+
+            const response = await fetch("http://localhost:11434/api/generate", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    model: "tinyllama",
+                    prompt: prompt
+                })
+            });
+
+            const data = await response.json();
+            document.getElementById("result").innerText = data.response;
+        }
+    </script>
+</body>
+</html>
