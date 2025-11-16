@@ -15,7 +15,7 @@ Over five days, participants learned the foundations of generative AI, large lan
 - AGENTS
 - PINECODE
 - HOW TO CREATE THE AGENT MODELS
-- 
+- N8N
 ## How to Use
 - Review individual Python scripts in the `Day3` folder for detailed examples
 - Ensure necessary dependencies are installed via `requirements.txt`
