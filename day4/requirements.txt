@@ -1,0 +1,10 @@
+langchain>=0.1.0
+langchain-community
+langchain-text-splitters
+python-dotenv
+
+pip install langchain langchain-community langchain-core
+pip install chromadb
+pip install pypdf
+pip install pinecone-client
+pip install sentence-transformers
