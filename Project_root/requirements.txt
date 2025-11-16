@@ -6,4 +6,4 @@ pypdf
 huggingface-hub
 sentence-transformers
 tiktoken
-python-dotenv
+python-dotenv 
