@@ -34,6 +34,7 @@ def store_to_chroma(chunks):
     )
     print("✅ PDF content stored successfully in Chroma DB!")
 
+#it is the main function also here we can print the output also with using the terminal 
 if __name__ == "__main__":
     print("📂 Loading PDFs...")
     documents = load_pdfs()
