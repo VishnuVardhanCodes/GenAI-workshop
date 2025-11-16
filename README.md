@@ -11,7 +11,11 @@ Over five days, participants learned the foundations of generative AI, large lan
 - Conditional branching workflows with Runnable Branch
 - Integration with Ollama and usage of TinyLlama models
 - Best practices for orchestrating large language models in production environments
-
+- RAG
+- AGENTS
+- PINECODE
+- HOW TO CREATE THE AGENT MODELS
+- 
 ## How to Use
 - Review individual Python scripts in the `Day3` folder for detailed examples
 - Ensure necessary dependencies are installed via `requirements.txt`
